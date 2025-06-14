@@ -34,6 +34,9 @@
           <li>
             <a href="/">Home</a>
           </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
         </ul>
         <ul>
           <li>
@@ -48,18 +51,14 @@
             <h2>Contact</h2>
           </li>
           <li>
-            <a href="/contact">
-              {{client.address.city}} {{client.address.state}}
-            </a>
+            <a href="/contact"> {{client.address.city}}, USA </a>
           </li>
           <li>
             <a href="tel:{{client.phoneForTel}}">
               T: {{client.phoneFormatted}}
             </a>
           </li>
-          <li>
-            <a href="mailto:{{client.email}}">Click to Email</a>
-          </li>
+          <li>Hours: 8:00AM - 6:00PM</li>
         </ul>
       </div>
     </div>
